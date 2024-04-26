@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap');
+
+html{
+    font-size: 1px;
+}
+
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    padding: 1rem;
+    height: 100rem;  
+    opacity: 70%;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;  
+}
+
+.img-logo{
+    position:initial;
+    height: 100rem;
+    width: 300rem;
+}
+
+.navbar li {
+    font-weight: bold;
+    font-size: 30rem;
+    padding-left: 50rem;
+    padding-right: 50rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btn-container a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    position: relative;
+    transition: color 0.3s, transform 0.3s;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 30rem;
+    padding-left: 50rem;
+    padding-right: 50rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+  }
+  
+  .btn-container a::before,
+  .btn-container a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 3px;
+    background-color: #78b9ff;
+    transition: transform 0.3s;
+    transform-origin: center;
+  }
+  
+  .btn-container a::before {
+    left: 25%;
+    transform: scaleX(0);
+  }
+  
+  .btn-container a::after {
+    right: 25%;
+    transform: scaleX(0);
+  }
+  
+  .btn-container a:hover {
+    color:#ffd690;
+    transform: scale(1.1); /* Increase the scale on hover */
+  }
+  
+  .btn-container a:hover::before,
+  .btn-container a:hover::after {
+    transform: scaleX(1);
+  }
+
+  .btn-container a:after {
+    content: "";
+    position: absolute;
+    background-color: #78b9ff;
+    height: 3px;
+    width: 0;
+    bottom: -3px;
+    left: 0;
+    transition: width 0.3s;
+  }
+  
+  .btn-container a:hover:after {
+    width: 100%;
+  }
+
+/* UDAH */
+body {
+    height: 100vh;
+    overflow-y: scroll;
+    margin: 0;
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(64, 164, 252);
+    background-image: url('./Asset/BG Dragon World.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 917rem;
+}
+
+/* UDAH */
+.container{
+    position: relative;
+    height: 853rem;
+    width: 610rem;   
+    margin: 50rem auto;
+    background-color: rgb(13, 17, 46, 0.95);
+    padding-top: 10rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    padding-bottom: 25rem;
+    border-radius: 15rem;
+    box-shadow: 0 0 10rem rgba(0, 0, 0, 100);
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(64, 164, 252);
+    align-items: center;
+    justify-content: center;
+}
+
+/* UDAH */
+.logo{
+    position: relative;
+    left: 150rem;
+    height: 100rem;
+    width: 300rem;
+    justify-self: center;
+    align-content: center;
+}
+
+/* UDAH */
+#zen-logo{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+/* UDAH */
+h1{
+    position: relative;
+    text-align: center; 
+    top: -30rem;
+    font-size: 40rem;
+}
+
+/* UDAH */
+input[type="text"]{
+    font-size: 20rem;
+    padding: 20rem;
+    height: 40rem;
+    border-radius: 20rem;
+    border-color: transparent;
+    border: none;
+}
+
+/* UDAH */
+input:focus[type="text"], textarea:focus{
+    outline: none;
+    border-color: transparent;
+}
+
+/* UDAH */
+#label-username{
+    position: relative;
+    top: -30rem;
+    left: 45rem;
+    font-size: 23rem;
+}
+
+/* UDAH */
+#username{
+    position: relative;
+    top: -27rem;
+    left: 27rem;
+    width: 360rem;
+}
+
+/* UDAH */
+#label-gender{
+    position: relative;
+    font-size: 23rem;
+    top: -30rem;
+    left: 322rem;
+}
+
+/* UDAH */
+#gender{
+    position: relative;
+    font-size: 15rem;
+    top: -29rem;
+    left: 35rem;
+    padding: 10rem;
+    height: 40rem;
+    width: 190rem;
+    border-radius: 20rem;
+}
+
+/* UDAH */
+#gender:focus{
+    outline: none;
+    border-color: transparent;
+}
+
+/* UDAH */
+#label-first{
+    position: relative;
+    font-size: 23rem;
+    top: -10rem;
+    left: 45rem;
+}
+
+/* UDAH */
+#first-name{
+    position: relative;
+    top: -8rem;
+    left: 26rem;
+    width: 275rem;
+}
+
+/* UDAH */
+#label-second{
+    position: relative;
+    font-size: 23rem;
+    top: -12rem;
+    left: 216rem;
+}
+
+/* UDAH */
+#second-name{
+    position: relative;
+    top: -8rem;
+    left: 35rem;
+    width: 275rem;
+}
+
+/* UDAH */
+#label-address{
+    position: relative;
+    font-size: 23rem;
+    top: 10rem;
+    left: 45rem;
+}
+
+/* UDAH */
+#address{
+    position: relative;
+    top: 13rem;
+    left: 27rem;
+    width: 560rem;
+}
+
+/* UDAH */
+#label-email{
+    position: relative;
+    font-size: 23rem;
+    /* top: 0rem;
+    left: 190rem; */
+    top: 30rem;
+    left: 45rem;
+}
+
+/* UDAH */
+#email{
+    position: relative;
+    font-size: 20rem;
+    height: 40rem;
+    width: 560rem;
+    top: 3rem;
+    left: -17.5rem;
+    padding: 20rem;
+    border-radius: 20rem;
+    border-color: transparent;
+    border: none;
+}
+
+/* UDAH */
+input:focus[type="email"]{
+    outline: none;
+    border-color: transparent;
+}
+
+/* UDAH */
+input[type="password"]{
+    font-size: 20rem;
+    padding: 20rem;
+    height: 40rem;
+    border-radius: 20rem;
+    border-color: transparent;
+    border: none;
+}
+
+/* udah */
+input:focus[type="password"]{
+    outline: none;
+    border-color: transparent;
+}
+
+/* UDAH */
+#label-pw{
+    position: relative;
+    font-size: 23rem;
+    top: 22rem;
+}
+
+/* UDAH */
+#password{
+    position: relative;
+    top: 24rem;
+    left: -17.5rem;
+    width: 560rem;
+}
+
+/* UDAH */
+#label-ConfirmPw{
+    position: relative;
+    font-size: 23rem;
+    top: 41rem;
+}
+
+/* UDAH */
+#confirm-password{
+    position: relative;
+    top: 44rem;
+    left: -17.5rem;
+    width: 560rem;
+}
+
+/* UDAH */
+.error{
+    position: relative;
+    left: -38rem;
+    top: 62rem;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 161, 37);
+    font-size: 17rem;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.4rem #0d0488;
+}
+
+/* UDAH */
+#error-txt{
+    text-align: center;
+}
+
+/* UDAH */
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    top: 72rem;
+    left: 66rem;
+    cursor: pointer;
+    width: 22rem;
+    height: 22rem;
+    background-color: #ddd;
+    border: 2rem solid #78b9ff;
+    border-radius: 3rem;
+}
+
+/* udah */
+input[type="checkbox"]:checked {
+    background-color: #ff6600;
+    border-color: #78b9ff; 
+}
+
+/* udah */
+input[type="checkbox"]:checked::before {
+    content: "\2713"; 
+    font-size: 21rem; 
+    color: white; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* udah */
+#label-A-TAC{
+    position: relative;
+    top: 65rem;
+    left: 62rem;
+    color: white;
+    font-size: 20rem;
+    font-weight: 900;
+}
+
+/* udah */
+#special-word{
+    color: red;
+    -webkit-text-stroke: 0.4rem #0d0488;
+}
+
+/* udah */
+button[type="submit"]{
+    position: relative;
+    top: 76rem;
+    left: 12rem;
+    background: linear-gradient(to top, rgb(244, 138, 0) 85%, #ffd690);
+    color: white; 
+    border: none;
+    height:54rem;
+    width:500rem;
+    border-radius: 12rem;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 900;
+    transition-duration: 10s;
+}
+button[type="submit"]:hover {
+    transition-duration: 5s;
+    background: linear-gradient(to top, rgb(193, 124, 5) 85%, #ffd690);
+}
+
+footer {
+    background-color: black;
+    font-family: "M PLUS 1 Code", monospace;
+    font-weight: 500;
+    font-style: normal;
+    height: 20rem;
+    text-align: center; /* Added to center the text horizontally */
+    color: white; /* Added to set the text color to white */
+    padding: 60rem; /* Added to create some space around the text */
+    position: sticky;
+}
+
+footer p {
+    font-size: 20rem; /* Changed 'size' to 'font-size' */
+    margin: 0; /* Added to remove any default margin */
+}

@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="./style_register2.css">
+    <script src="./check_register.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <img src="./Asset/Logo Zen Dragon.png" class="img-logo">
+        <div class="btn-container">
+            <a href="#">Home</a>
+            <a href="#">Character</a>
+            <a href="#">Class</a>
+            <a href="#">Isle of Berg</a>
+        </div>
+    </div>
+    <!-- End Of Navbar -->
+    <div class="bg">
+        <div class="container">
+            <div class="logo">
+                <img src="./Asset/Logo Zen DragoN.png" id="zen-logo">
+            </div>
+            <h1>Register Form</h1>
+            <form id="register-form">
+                <label for="username" id="label-username">Username</label>
+                <label for="gender" id="label-gender">Gender</label><br>
+                
+                <input type="text" id="username" placeholder="Username">
+                <select id="gender">
+                    <option value="CYG">Choose your gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <br>
+
+                <label for="first-name" id="label-first">First Name</label>
+                <label for="second-name" id="label-second">Second Name</label><br>
+
+                <input type="text" id="first-name" placeholder="First name">
+                <input type="text" id="second-name" placeholder="Second name"><br>
+ 
+                <label for="address" id="label-address">Address</Address></label><br>
+                <input type="text" id="address" placeholder="Address"><br>
+
+                <label for="email" id="label-email">Email</lable><br>
+                <input type="email" id="email" placeholder="Email"><br>
+    
+    
+                <label for="password" id="label-pw">Password</label><br>
+                <input type="password" id="password" placeholder="Password"><br>
+
+                <label for="confirm-password" id="label-ConfirmPw">Confirm Password</label><br>
+                <input type="password" id="confirm-password" placeholder="Confirm Password"><br>
+    
+                <div class="error">
+                    <label id="error-txt"></label>
+                </div>
+
+                <input type="checkbox" id="A-TAC">
+                <label for="A-TAC" id="label-A-TAC">I agree to the <span id="special-word">terms</span> and <span id="special-word">conditions</span></label>
+    
+                <button type="submit">Submit</button>
+    
+            </form>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <p>Copyright Ⓒ HZX88 & GroHaul. All Rights Reserved</p> 
+    </footer>
+</body>
+</html>
