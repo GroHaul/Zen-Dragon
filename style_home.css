@@ -127,21 +127,24 @@ body{
     position: relative;
     background-color: #78b9ff;
     top: 100rem ;
-    left: 0;
+    left: 10rem; 
     display: flex;
     flex-direction: column;
     width: 600rem;
+    align-items: center;
 }
 
 #zen-title{
-    font-size: 30rem;
+    font-size: 84rem;
+    color: white;
     align-items: center;
     justify-content: center;
 }
 
 #wise-word{
-    font-size: large;
-    background-color: #78b9ff;
+    font-size: 22rem;
+    color: white;
+    /* background-color: #78b9ff; */
     text-align: center;
     width: 40ch;
 }
