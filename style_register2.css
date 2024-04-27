@@ -65,37 +65,38 @@ margin-left: 30rem;
 padding: 10px 20px;
 }
 
-  .btn-container a::before,
-  .btn-container a::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    width: 50%;
-    height: 3px;
-    background-color: #78b9ff;
-    transition: transform 0.3s;
-    transform-origin: center;
-  }
-  
-  .btn-container a::before {
-    left: 25%;
-    transform: scaleX(0);
-  }
-  
-  .btn-container a::after {
-    right: 25%;
-    transform: scaleX(0);
-  }
-  
-  .btn-container a:hover {
-    color:#ffd690;
-    transform: scale(1.1); 
-  }
-  
-  .btn-container a:hover::before,
-  .btn-container a:hover::after {
-    transform: scaleX(1);
-  }
+.btn-container a::before,
+.btn-container a::after {
+content: "";
+position: absolute;
+bottom: 0;
+width: 50%;
+height: 3px;
+background-color: #78b9ff;
+transition: transform 0.3s;
+transform-origin: center;
+}
+
+.btn-container a::before {
+left: 25%;
+transform: scaleX(0);
+}
+
+.btn-container a::after {
+right: 25%;
+transform: scaleX(0);
+}
+
+.btn-container a:hover {
+color:#ffd690;
+transform: scale(1.1); 
+}
+
+.btn-container a:hover::before,
+.btn-container a:hover::after {
+transform: scaleX(1);
+}
+
 .btn-container a::before,
 .btn-container a::after {
 content: "";
