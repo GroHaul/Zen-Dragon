@@ -30,40 +30,40 @@ html{
     width: 300rem;
 }
 
-  .btn-container a {
-    text-decoration: none;
-    color: white;
-    justify-content: center;
-    display: inline-block;
-    position: relative;
-    transition: color 0.3s, transform 0.3s;
-    overflow: hidden;
-    font-weight: bold;
-    font-size: 30rem;
-    padding-left: 30rem;
-    padding-right: 30rem;
-    cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    white-space: nowrap;
-  }
+.btn-container a {
+text-decoration: none;
+color: white;
+justify-content: center;
+display: inline-block;
+position: relative;
+transition: color 0.3s, transform 0.3s;
+overflow: hidden;
+font-weight: bold;
+font-size: 30rem;
+padding-left: 30rem;
+padding-right: 30rem;
+cursor: pointer;
+display: flex;
+flex-direction: row;
+white-space: nowrap;
+}
 
-  .btn-register a {
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-    position: relative;
-    transition: color 0.3s, transform 0.3s;
-    overflow: hidden;
-    font-weight: bold;
-    font-size: 30rem;
-    justify-content: right;
-    border: 2px solid white;
-    border-radius: 5px;
-    margin-right: 100rem;
-    margin-left: 30rem;
-    padding: 10px 20px;
-  }
+.btn-register a {
+text-decoration: none;
+color: white;
+display: inline-block;
+position: relative;
+transition: color 0.3s, transform 0.3s;
+overflow: hidden;
+font-weight: bold;
+font-size: 30rem;
+justify-content: right;
+border: 2px solid white;
+border-radius: 5px;
+margin-right: 100rem;
+margin-left: 30rem;
+padding: 10px 20px;
+}
 
   .btn-container a::before,
   .btn-container a::after {
@@ -96,21 +96,52 @@ html{
   .btn-container a:hover::after {
     transform: scaleX(1);
   }
+.btn-container a::before,
+.btn-container a::after {
+content: "";
+position: absolute;
+bottom: 0;
+width: 50%;
+height: 3px;
+background-color: #78b9ff;
+transition: transform 0.3s;
+transform-origin: center;
+}
 
-  .btn-container a:after {
-    content: "";
-    position: absolute;
-    background-color: #78b9ff;
-    height: 3px;
-    width: 0;
-    bottom: -3px;
-    left: 0;
-    transition: width 0.3s;
-  }
-  
-  .btn-container a:hover:after {
-    width: 100%;
-  }
+.btn-container a::before {
+left: 25%;
+transform: scaleX(0);
+}
+
+.btn-container a::after {
+right: 25%;
+transform: scaleX(0);
+}
+
+.btn-container a:hover {
+color:#ffd690;
+transform: scale(1.1); /* Increase the scale on hover */
+}
+
+.btn-container a:hover::before,
+.btn-container a:hover::after {
+transform: scaleX(1);
+}
+
+.btn-container a:after {
+content: "";
+position: absolute;
+background-color: #78b9ff;
+height: 3px;
+width: 0;
+bottom: -3px;
+left: 0;
+transition: width 0.3s;
+}
+
+.btn-container a:hover:after {
+width: 100%;
+}
 
 /* UDAH */
 body {

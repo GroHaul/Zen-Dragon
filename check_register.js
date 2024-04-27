@@ -48,7 +48,7 @@ form.addEventListener("submit",function(e){
     }
     else{
         alert("Account Registered Successfully!!")
-        window.location.href = "https://youtu.be/WIRK_pGdIdA?si=6gvV-klLRmude3si"
+        window.location.href = "./Home_Page.html"
     }
 })
 
