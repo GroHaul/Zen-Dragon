@@ -126,19 +126,22 @@ body{
 }
 
 .container-title{
-    position: relative;
-    /* background-color: #78b9ff; */
-    /* top: 100rem; */
-    /* left: 10rem;  */
+    position: absolute;
+    top: 23%;
+    left: 6%; 
     display: flex;
     flex-direction: column;
     width: 600rem;
     align-items: center;
     margin-bottom: 40rem;
     gap: 20rem;
+    border-radius: 250rem;
+    padding: 50rem 0rem;
+    box-shadow: #d08400;
 }
 
 #zen-title{
+    text-shadow: 2px 2px 40px rgb(78, 173, 0);
     font-size: 84rem;
     color: white;
     align-items: center;
@@ -149,7 +152,7 @@ body{
 #wise-word{
     font-size: 22rem;
     color: white;
-    /* background-color: #78b9ff; */
+    text-shadow: 2px 2px 10px rgb(78, 173, 0);
     text-align: center;
     width: 40ch;
 }
@@ -158,8 +161,9 @@ body{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding: 30rem 0rem;
-    /* background-color: aliceblue; */
+    padding-top: 200rem;
+    padding-bottom: 30rem;
+    background-image: linear-gradient(0deg, rgb(0, 0, 0), transparent);
 }
 
 .facility-display {
