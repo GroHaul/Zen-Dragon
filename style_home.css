@@ -22,14 +22,16 @@ body{
     display: flex;
     justify-content: space-between;   
     align-items: center;
-    /* padding: 1rem; */
     height: 100rem;  
     opacity: 90%;
     position: fixed;
     width: 100%;
     top: 0px;
     z-index: 100;
+    font-family: "M PLUS 1 Code", monospace;
+    font-style: normal;
 }
+
 .btn-container{
     display: flex;
     justify-content: center;
@@ -51,8 +53,9 @@ body{
     position: relative;
     transition: color 0.3s, transform 0.3s;
     overflow: hidden;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 30rem;
+    -webkit-text-stroke: 1.4px #ad0403;
     padding-left: 30rem;
     padding-right: 30rem;
     cursor: pointer;
@@ -128,24 +131,28 @@ body{
 .container-title{
     position: absolute;
     top: 23%;
-    left: 6%; 
+    left: 8%; 
     display: flex;
     flex-direction: column;
     width: 600rem;
     align-items: center;
     margin-bottom: 40rem;
-    gap: 50rem;
+    gap: 32rem;
     border-radius: 250rem;
     padding: 50rem 0rem;
     box-shadow: #d08400;
 }
 
 #zen-title{
-    font-size: 84rem;
+    font-size: 120rem;
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     background: linear-gradient(to top,#8c98b7 30% , #ffffff);
     -webkit-background-clip: text;
     color: transparent; 
-    filter: drop-shadow(2px 2px 3px rgb(162, 0, 0));
+    filter: drop-shadow(2px 2px 6px rgb(162, 0, 0));
     -webkit-text-stroke: 2.5px rgba(117,24,23,255);
     align-items: center;
     justify-content: center;
@@ -154,8 +161,11 @@ body{
 
 #wise-word{
     font-size: 22rem;
+    font-family: sans-serif;
+    font-weight: 900;
     color: white;
-    text-shadow: 2px 2px 8px rgba(162, 0, 0,1);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    text-shadow: 2px 2px 13px rgba(162, 0, 0,1);
     text-align: center;
     width: 40ch;
     padding: 0;
@@ -171,6 +181,10 @@ body{
     padding-bottom: 30rem;
     background-image: linear-gradient(0deg, rgb(0, 0, 0), transparent);
     align-items: center;
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .facility-display {
@@ -180,6 +194,7 @@ body{
     width: 15%;
     height: 95%;
     color: white;
+    -webkit-text-stroke: 1.5px rgb(0, 31, 206);
     border-radius: 8px;
     box-shadow: 0px 3.5px 10px rgb(0, 140, 255);
     border: 2px solid rgb(27, 164, 164);
@@ -220,6 +235,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border: solid 2 px red;
 }
 
 #facility-eggs{
