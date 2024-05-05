@@ -129,21 +129,27 @@ body{
 }
 
 .container-title{
-    position: relative;
-    /* background-color: #78b9ff; */
-    /* top: 100rem; */
-    /* left: 10rem;  */
+    position: absolute;
+    top: 23%;
+    left: 6%; 
     display: flex;
     flex-direction: column;
     width: 600rem;
     align-items: center;
     margin-bottom: 40rem;
-    gap: 20rem;
+    gap: 50rem;
+    border-radius: 250rem;
+    padding: 50rem 0rem;
+    box-shadow: #d08400;
 }
 
 #zen-title{
     font-size: 84rem;
-    color: white;
+    background: linear-gradient(to top,#8c98b7 30% , #ffffff);
+    -webkit-bazckground-clip: text;
+    color: transparent; 
+    filter: drop-shadow(2px 2px 3px rgb(162, 0, 0));
+    -webkit-text-stroke: 2.5px rgba(117,24,23,255);
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -152,29 +158,90 @@ body{
 #wise-word{
     font-size: 22rem;
     color: white;
-    /* background-color: #78b9ff; */
+    text-shadow: 2px 2px 8px rgba(162, 0, 0,1);
     text-align: center;
     width: 40ch;
+    padding: 0;
+    margin: 0;
 }
 
 .facility-display-container {
     display: flex;
     justify-content: space-around;
+    height: 130rem;
     width: 100%;
-    padding: 30rem 0rem;
-    /* background-color: aliceblue; */
+    padding-top: 200rem;
+    padding-bottom: 30rem;
+    background-image: linear-gradient(0deg, rgb(0, 0, 0), transparent);
+    align-items: center;
 }
 
 .facility-display {
     display: flex;
     justify-content: center;
     font-size: 30rem;
-    padding: 40rem 0rem;
     width: 15%;
-    background-color: red;
+    height: 95%;
     color: white;
     border-radius: 8px;
-    box-shadow: 0px 3px 6px black;
+    box-shadow: 0px 3.5px 10px rgb(0, 140, 255);
+    border: 2px solid rgb(27, 164, 164);
+}
+
+.facility-display:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 3.5px 16px rgb(0, 140, 255);
+    border: 3.5px solid rgb(34, 197, 197);
+    transition: 0.3s;
+}
+
+.facility-display:not(:hover){
+    transform: scale(1);
+    box-shadow: 0px 3.5px 10px rgb(0, 140, 255);
+    border: 2px solid rgb(27, 164, 164);
+    transition: 0.3s;
+}
+
+.bg-gradient:hover{
+    opacity: 0;
+}
+
+.bg-gradient{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,0,0.65);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: 0.4s;
+}
+
+#facility-dragons{
+    background-image: url('./Asset/Facility/Dragons.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#facility-eggs{
+    background-image: url('./Asset/Facility/Eggs.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#facility-bf{
+    background-image: url('./Asset/Facility/Battlefield.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#facility-laboratorium{
+    background-image: url('./Asset/Facility/Laboratorium.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .regist_btn {
@@ -182,7 +249,6 @@ body{
     border-radius: 25px;
     background-color: black;
     padding: 15rem 35rem;
-    margin-top: 30rem;
     text-transform: uppercase;
     font-weight: bold;
     color: white;
@@ -193,4 +259,11 @@ body{
     color: #d08400;
     cursor: pointer;
     box-shadow: 0px 0px 16px #ffbb00;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.regist_btn:not(:hover) {
+    transform: scale(1);
+    transition: 0.2s;
 }
