@@ -67,6 +67,12 @@ body{
     white-space: nowrap;
 }
 
+.btn-container .active{
+    color:#ffd690;
+    transform: scale(1.1); /* Increase the scale on hover */
+    
+}
+
 .btn-register a {
     text-decoration: none;
     color: white;
@@ -111,6 +117,8 @@ body{
     transform: scale(1.1); /* Increase the scale on hover */
 }
 
+
+
 .btn-container a:hover::before,
 .btn-container a:hover::after {
     transform: scaleX(1);
@@ -131,6 +139,13 @@ body{
     width: 100%;
 }
 
+.btn-container .active::before,
+.btn-container .active::after{
+    width: 50% ;
+    transform: scaleX(1);
+}
+
+/* End of Navbar Style */
 .container-title{
     position: absolute;
     top: 23%;

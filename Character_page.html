@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./materialize.css">
+    <link rel="stylesheet" href="./style_character.css">
+    <link rel="stylesheet" href="./font_awesome/css/font-awesome.min.css">
+    <title>Zen Dragon - Character Page</title>
+</head>
+<body>
+     <!-- Navbar -->
+     <div class="navbar">
+        <img src="./Asset/Logo Zen Dragon.png" class="img-logo">
+        <div class="btn-container">
+            <a href="./Home_Page.html">Home</a>
+            <a href="#" class="active">Character</a>
+            <a href="#">Class</a>
+            <a href="#">Isle of Berg</a>
+        </div>
+        <div class = "btn-register">
+            <a href="#./Register_Page2">Register</a>
+        </div>
+    </div>
+    <!-- End Of Navbar -->
+    <div class="banner">
+        <div class="content active">
+            <h1 class="movie-title">Neuvilette</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Odit quaerat cumque numquam quis, doloremque assumenda 
+                sed eveniet reprehenderit distinctio, ea omnis maxime 
+                consectetur necessitatibus mollitia fugit nemo accusantium, 
+                culpa repellat?
+            </p>
+        </div>
+        <div class="carousel-box">
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="./Asset/Character/Carousel1.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Asset/Character/Carousel2.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Asset/Character/Carousel3.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Asset/Character/Carousel4.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Asset/Character/Carousel5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="./materialize.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.carousel').carousel();
+    });
+    </script>
+</body>
+</html>
