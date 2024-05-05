@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap');
 
 html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-size: 1px;
 }
 
@@ -168,7 +171,7 @@ body{
     font-weight: 500;
     font-style: normal;
     background: linear-gradient(to top,#8c98b7 30% , #ffffff);
-    -webkit-bazckground-clip: text;
+    -webkit-background-clip: text;
     color: transparent; 
     filter: drop-shadow(2px 2px 6px rgb(162, 0, 0));
     -webkit-text-stroke: 2.5px rgba(117,24,23,255);
@@ -193,7 +196,7 @@ body{
 .facility-display-container {
     display: flex;
     justify-content: space-around;
-    height: 130rem;
+    height: 400rem;
     width: 100%;
     padding-top: 200rem;
     padding-bottom: 30rem;
@@ -276,6 +279,7 @@ body{
 }
 
 .regist_btn {
+    font-size: 15rem;
     border: 2rem solid white;
     border-radius: 25px;
     background-color: black;
