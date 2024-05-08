@@ -196,6 +196,7 @@ body::before{
     visibility: hidden;
     transform: scale(0);
     transition: 0.5s;
+    padding-right: 300rem;
 }
 
 .content.active{
@@ -218,7 +219,7 @@ body::before{
     margin: 10px 0 20px;
 }
 
-.carousel {
+/* .carousel {
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -229,24 +230,29 @@ body::before{
             transform-style: preserve-3d;
     -webkit-transform-origin: 0% 50%;
             transform-origin: 0% 50%;
-  }
+  } */
 
   .carousel .carousel-item {
-    visibility: hidden; 
-    width: 200px;
-    height: 200px;
-    position: absolute;
+    /* border: #ffffff; */
+    display: flex;
+    visibility: visible; 
+    padding: 10rem;
+    width: 400px;
+    height: 100px;
+    position: relative;
     top: 0;
     left: 0;
   }
 
 
-.banner .carousel-box {
+.carousel-box {
     position: relative;
-    min-width: 500px;
+    /* border: #ffd690; */
+    /* background-color: black; */
+    /* min-width: 200px; */
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
     /* background-color: rgba(0,0,0,0.2);
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0,1);
@@ -255,15 +261,37 @@ body::before{
 }
 
 .carousel{
-    position: relative;
-    height: 600px;
-    perspective: 100;
+    position: absolute;
+    height: 300px;
+    /* padding-top: 50rem; */
+    /* perspective: 1000; */
 }
 
 .carousel .carousel-item img {
-    max-width: 150px;
+    cursor: pointer;
+    /* max-width: 150px; */
+    background-color: black;
     border-radius: 10px;
+    border-color: grey;
+    border-style: double;
     transform: translateX(8px) translateY(-100px);
     object-fit: cover;
     object-position: center;
+}
+
+.carousel .carousel-item.active img{
+    cursor: pointer;
+    /* max-width: 150px; */
+    background-color: rgba(53, 56, 10, 0.355);
+    border-radius: 10px;
+    border-color: yellow;
+    border-style: double;
+    transform: translateX(8px) translateY(-100px);
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel .carousel-item img:hover{
+    background-color: rgba(53, 56, 10, 0.355);
+    border-color: yellow;
 }

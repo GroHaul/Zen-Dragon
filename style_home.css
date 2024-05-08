@@ -196,7 +196,7 @@ body{
 .facility-display-container {
     display: flex;
     justify-content: space-around;
-    height: 400rem;
+    /* height: 300rem; */
     width: 100%;
     padding-top: 200rem;
     padding-bottom: 30rem;
@@ -279,7 +279,7 @@ body{
 }
 
 .regist_btn {
-    font-size: 15rem;
+    /* font-size: 15rem; */
     border: 2rem solid white;
     border-radius: 25px;
     background-color: black;
