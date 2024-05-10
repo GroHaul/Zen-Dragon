@@ -115,7 +115,6 @@ html{
     width: 100%;
 }
 
-/* UDAH */
 body {
     height: 100vh;
     overflow-y: scroll;
@@ -131,7 +130,6 @@ body {
     background-position: center;
 }
 
-/* UDAH */
 .container{
     position: relative;
     height: 853rem;
@@ -153,7 +151,6 @@ body {
     justify-content: center;
 }
 
-/* UDAH */
 .logo{
     position: relative;
     left: 150rem;
@@ -163,14 +160,12 @@ body {
     align-content: center;
 }
 
-/* UDAH */
 #zen-logo{
     position: relative;
     height: 100%;
     width: 100%;
 }
 
-/* UDAH */
 h1{
     position: relative;
     text-align: center; 
@@ -178,7 +173,6 @@ h1{
     font-size: 40rem;
 }
 
-/* UDAH */
 input[type="text"]{
     font-size: 20rem;
     padding: 20rem;
@@ -188,13 +182,11 @@ input[type="text"]{
     border: none;
 }
 
-/* UDAH */
 input:focus[type="text"], textarea:focus{
     outline: none;
     border-color: transparent;
 }
 
-/* UDAH */
 #label-username{
     position: relative;
     top: -30rem;
@@ -202,7 +194,6 @@ input:focus[type="text"], textarea:focus{
     font-size: 23rem;
 }
 
-/* UDAH */
 #username{
     position: relative;
     top: -27rem;
@@ -210,7 +201,6 @@ input:focus[type="text"], textarea:focus{
     width: 360rem;
 }
 
-/* UDAH */
 #label-gender{
     position: relative;
     font-size: 23rem;
@@ -218,7 +208,6 @@ input:focus[type="text"], textarea:focus{
     left: 322rem;
 }
 
-/* UDAH */
 #gender{
     position: relative;
     font-size: 15rem;
@@ -230,13 +219,11 @@ input:focus[type="text"], textarea:focus{
     border-radius: 20rem;
 }
 
-/* UDAH */
 #gender:focus{
     outline: none;
     border-color: transparent;
 }
 
-/* UDAH */
 #label-first{
     position: relative;
     font-size: 23rem;
@@ -244,7 +231,6 @@ input:focus[type="text"], textarea:focus{
     left: 45rem;
 }
 
-/* UDAH */
 #first-name{
     position: relative;
     top: -8rem;
@@ -252,7 +238,6 @@ input:focus[type="text"], textarea:focus{
     width: 275rem;
 }
 
-/* UDAH */
 #label-second{
     position: relative;
     font-size: 23rem;
@@ -260,7 +245,6 @@ input:focus[type="text"], textarea:focus{
     left: 216rem;
 }
 
-/* UDAH */
 #second-name{
     position: relative;
     top: -8rem;
@@ -268,7 +252,6 @@ input:focus[type="text"], textarea:focus{
     width: 275rem;
 }
 
-/* UDAH */
 #label-address{
     position: relative;
     font-size: 23rem;
@@ -276,7 +259,6 @@ input:focus[type="text"], textarea:focus{
     left: 45rem;
 }
 
-/* UDAH */
 #address{
     position: relative;
     top: 13rem;
@@ -284,17 +266,13 @@ input:focus[type="text"], textarea:focus{
     width: 560rem;
 }
 
-/* UDAH */
 #label-email{
     position: relative;
     font-size: 23rem;
-    /* top: 0rem;
-    left: 190rem; */
     top: 30rem;
     left: 45rem;
 }
 
-/* UDAH */
 #email{
     position: relative;
     font-size: 20rem;
@@ -308,13 +286,11 @@ input:focus[type="text"], textarea:focus{
     border: none;
 }
 
-/* UDAH */
 input:focus[type="email"]{
     outline: none;
     border-color: transparent;
 }
 
-/* UDAH */
 input[type="password"]{
     font-size: 20rem;
     padding: 20rem;
@@ -324,20 +300,17 @@ input[type="password"]{
     border: none;
 }
 
-/* udah */
 input:focus[type="password"]{
     outline: none;
     border-color: transparent;
 }
 
-/* UDAH */
 #label-pw{
     position: relative;
     font-size: 23rem;
     top: 22rem;
 }
 
-/* UDAH */
 #password{
     position: relative;
     top: 24rem;
@@ -345,14 +318,12 @@ input:focus[type="password"]{
     width: 560rem;
 }
 
-/* UDAH */
 #label-ConfirmPw{
     position: relative;
     font-size: 23rem;
     top: 41rem;
 }
 
-/* UDAH */
 #confirm-password{
     position: relative;
     top: 44rem;
@@ -360,7 +331,6 @@ input:focus[type="password"]{
     width: 560rem;
 }
 
-/* UDAH */
 .error{
     position: relative;
     left: -38rem;
@@ -376,12 +346,10 @@ input:focus[type="password"]{
     -webkit-text-stroke: 0.4rem #0d0488;
 }
 
-/* UDAH */
 #error-txt{
     text-align: center;
 }
 
-/* UDAH */
 input[type="checkbox"] {
     appearance: none;
     -webkit-appearance: none;
@@ -397,13 +365,11 @@ input[type="checkbox"] {
     border-radius: 3rem;
 }
 
-/* udah */
 input[type="checkbox"]:checked {
     background-color: #ff6600;
     border-color: #78b9ff; 
 }
 
-/* udah */
 input[type="checkbox"]:checked::before {
     content: "\2713"; 
     font-size: 21rem; 
@@ -414,7 +380,6 @@ input[type="checkbox"]:checked::before {
     transform: translate(-50%, -50%);
 }
 
-/* udah */
 #label-A-TAC{
     position: relative;
     top: 65rem;
@@ -424,13 +389,11 @@ input[type="checkbox"]:checked::before {
     font-weight: 900;
 }
 
-/* udah */
 #special-word{
     color: red;
     -webkit-text-stroke: 0.4rem #0d0488;
 }
 
-/* udah */
 button[type="submit"]{
     position: relative;
     top: 76rem;
@@ -446,6 +409,7 @@ button[type="submit"]{
     font-weight: 900;
     transition-duration: 10s;
 }
+
 button[type="submit"]:hover {
     transition-duration: 5s;
     background: linear-gradient(to top, rgb(193, 124, 5) 85%, #ffd690);
@@ -457,15 +421,15 @@ footer {
     font-weight: 500;
     font-style: normal;
     height: 20rem;
-    text-align: center; /* Added to center the text horizontally */
-    color: white; /* Added to set the text color to white */
-    padding: 60rem; /* Added to create some space around the text */
+    text-align: center;
+    color: white;
+    padding: 60rem;
     position: sticky;
 }
 
 footer p {
-    font-size: 20rem; /* Changed 'size' to 'font-size' */
-    margin: 0; /* Added to remove any default margin */
+    font-size: 20rem;
+    margin: 0;
 }
 
 @media (max-width: 1320px){
@@ -492,53 +456,53 @@ footer p {
 
 @media (max-width: 420px){
     .navbar{
-    background-color: transparent;
-    display: flex;
-    justify-content: space-between;   
-    align-items: center;
-    padding: 1rem;
-    height: 100rem;  
-    opacity: 90%;
-    position: sticky;
-    width: 100%;
-    top: 0;
-    z-index: 100;
-}
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;   
+        align-items: center;
+        padding: 1rem;
+        height: 100rem;  
+        opacity: 90%;
+        position: sticky;
+        width: 100%;
+        top: 0;
+        z-index: 100;
+    }
 
-.img-logo {
-    width: 300rem;
-    height: auto;
-    margin-left: 1rem;
-}
+    .img-logo {
+        width: 300rem;
+        height: auto;
+        margin-left: 1rem;
+    }
 
-.container{
-    position: relative;
-    height: 853rem;
-    width: 350.0rem;   
-    margin: 50rem auto;
-    background-color: rgb(13, 17, 46, 0.95);
-    padding-top: 10rem;
-    padding-left: 25rem;
-    padding-right: 25rem;
-    padding-bottom: 25rem;
-    border-radius: 15rem;
-    box-shadow: 0 0 10rem rgba(0, 0, 0, 100);
-    font-family: "M PLUS 1 Code", monospace;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    color: rgb(64, 164, 252);
-    align-items: center;
-    justify-content: center;
-}
+    .container{
+        position: relative;
+        height: 853rem;
+        width: 350.0rem;   
+        margin: 50rem auto;
+        background-color: rgb(13, 17, 46, 0.95);
+        padding-top: 10rem;
+        padding-left: 25rem;
+        padding-right: 25rem;
+        padding-bottom: 25rem;
+        border-radius: 15rem;
+        box-shadow: 0 0 10rem rgba(0, 0, 0, 100);
+        font-family: "M PLUS 1 Code", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        color: rgb(64, 164, 252);
+        align-items: center;
+        justify-content: center;
+    }
 
-footer{
-    height: 20rem;
-    padding: 30rem;
-    
-}
+    footer{
+        height: 20rem;
+        padding: 30rem;
+        
+    }
 
-footer p{
-    font-size: 13rem;
-}
+    footer p{
+        font-size: 13rem;
+    }
 }

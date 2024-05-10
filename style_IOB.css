@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10rem;
+    background-color: rgb(36, 36, 36);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 50rem;
+    padding-top: 150rem;
+}
+
+.navbar{
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    height: 100rem;  
+    opacity: 90%;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 100;
+    font-family: "M PLUS 1 Code", monospace;
+    font-style: normal;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.img-logo{
+    position:initial;
+    height: 100rem;
+    width: 300rem;
+}
+
+.btn-container a {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    display: inline-block;
+    position: relative;
+    transition: color 0.3s, transform 0.3s;
+    overflow: hidden;
+    font-weight: 900;
+    font-size: 30rem;
+    -webkit-text-stroke: 1.4px #ad0403;
+    padding-left: 30rem;
+    padding-right: 30rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+}
+
+.btn-container .active{
+    color:#ffd690;
+    transform: scale(1.1); /* Increase the scale on hover */
+    
+}
+
+.btn-register a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    position: relative;
+    transition: color 0.3s, transform 0.3s;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 30rem;
+    justify-content: right;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-right: 100rem;
+    margin-left: 30rem;
+    padding: 10px 20px;
+}
+
+.btn-container a::before,
+.btn-container a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 3px;
+    background-color: #78b9ff;
+    transition: transform 0.3s;
+    transform-origin: center;
+}
+
+.btn-container a::before {
+    left: 25%;
+    transform: scaleX(0);
+}
+
+.btn-container a::after {
+    right: 25%;
+    transform: scaleX(0);
+}
+
+.btn-container a:hover {
+    color:#ffd690;
+    transform: scale(1.1); /* Increase the scale on hover */
+}
+
+
+
+.btn-container a:hover::before,
+.btn-container a:hover::after {
+    transform: scaleX(1);
+}
+
+.btn-container a:after {
+    content: "";
+    position: absolute;
+    background-color: #78b9ff;
+    height: 3px;
+    width: 0;
+    bottom: -3px;
+    left: 0;
+    transition: width 0.3s;
+}
+
+.btn-container a:hover:after {
+    width: 100%;
+}
+
+.btn-container .active::before,
+.btn-container .active::after{
+    width: 50% ;
+    transform: scaleX(1);
+}
+
+.container {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* top: 180rem; */
+    width: 100%;
+    /* height: 480rem; */
+}
+
+.IOB-img-container {
+    /* position: relative; */
+    height: 580rem;
+    width: 90%;
+    background-color: transparent;
+}
+
+.IOB-img {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: solid 5px rgb(227, 189, 0);
+    border-radius: 20px;
+    box-shadow: 0 0 30rem rgba(251, 255, 0, 0.6);
+}
+
+.container-desc {
+    /* position: relative; */
+    /* width: 100vw; */
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ad0403;
+}
+
+#desc {
+    position: relative;
+    font-size: 50rem;
+}
