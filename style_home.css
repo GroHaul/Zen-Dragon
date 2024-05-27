@@ -179,7 +179,7 @@ body{
     transition: 0.2s;
 }
 
-@media (max-width: 820px){
+@media (max-width: 1202px){
     body {
         position: relative;
         height: 120vh;
@@ -187,7 +187,7 @@ body{
 
     .container-title{
         position: absolute;
-        top: 20%;
+        top: 15%;
         left: auto;
         right: auto; 
         align-items: center;
@@ -255,9 +255,180 @@ body{
         display: flex;
         text-wrap:wrap;
         justify-content: center;
-        font-size: 39rem;
-        width: 25%;
-        height: 65%;
+        font-size: 30rem;
+        width: 35%;
+        height: 120rem;
+        color: white;
+        -webkit-text-stroke: 1.5px rgb(0, 31, 206);
+        border-radius: 8px;
+        box-shadow: 0px 3.5px 10px rgb(0, 140, 255);
+        border: 2px solid rgb(27, 164, 164);
+    }
+    
+    .facility-display:hover{
+        transform: scale(1.1);
+        box-shadow: 0px 3.5px 16px rgb(0, 140, 255);
+        border: 3.5px solid rgb(34, 197, 197);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    
+    .facility-display:not(:hover){
+        transform: scale(1);
+        box-shadow: 0px 3.5px 10px rgb(0, 140, 255);
+        border: 2px solid rgb(27, 164, 164);
+        transition: 0.3s;
+    }
+    
+    .bg-gradient:hover{
+        opacity: 0;
+    }
+    
+    .bg-gradient{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(0,0,0,0.65);
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        transition: 0.4s;
+    }
+    
+    #facility-dragons{
+        background-image: url('./Asset/Facility/Dragons.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: solid 2 px red;
+    }
+    
+    #facility-eggs{
+        background-image: url('./Asset/Facility/Eggs.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #facility-bf{
+        background-image: url('./Asset/Facility/Battlefield.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #facility-laboratorium{
+        background-image: url('./Asset/Facility/Laboratorium.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .regist_btn {
+        /* font-size: 15rem; */
+        border: 2rem solid white;
+        border-radius: 25px;
+        background-color: black;
+        padding: 15rem 35rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .regist_btn:hover {
+        border-color: #d08400;
+        color: #d08400;
+        cursor: pointer;
+        box-shadow: 0px 0px 16px #ffbb00;
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+    
+    .regist_btn:not(:hover) {
+        transform: scale(1);
+        transition: 0.2s;
+    }
+}
+
+
+@media (max-width: 626px){
+    body {
+        position: relative;
+        height: 120vh;
+    }
+
+    .container-title{
+        position: absolute;
+        top: 15%;
+        left: auto;
+        right: auto; 
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 40rem;
+        gap: 32rem;
+        border-radius: 250rem;
+        padding: 50rem 0rem;
+        box-shadow: #d08400;
+    }
+    
+    #zen-title{
+        font-size: 70rem;
+        font-family: "M PLUS 1 Code", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        background: linear-gradient(to top,#8c98b7 30% , #ffffff);
+        -webkit-background-clip: text;
+        color: transparent; 
+        filter: drop-shadow(2px 2px 6px rgb(162, 0, 0));
+        -webkit-text-stroke: 2.5px rgba(117,24,23,255);
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    #wise-word{
+        font-size: 18rem;
+        font-family: sans-serif;
+        font-weight: 900;
+        color: white;
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+        text-shadow: 2px 2px 13px rgba(162, 0, 0,1);
+        text-align: center;
+        width: 30ch;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .facility-display-container {
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50rem;
+        height: fit-content;
+        width: 100%;
+        padding-top: 100rem;
+        padding-bottom: 30rem;
+        background-image: linear-gradient(0deg, rgb(0, 0, 0), transparent);
+        align-items: center;
+        font-family: "M PLUS 1 Code", monospace;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+    }
+    
+    .facility-display {
+        display: flex;
+        text-wrap:wrap;
+        justify-content: center;
+        font-size: 20rem;
+        width: 35%;
+        height: 90rem;
         color: white;
         -webkit-text-stroke: 1.5px rgb(0, 31, 206);
         border-radius: 8px;
