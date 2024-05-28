@@ -30,14 +30,17 @@ body::before{
 
 .banner{
     position: relative;
-    padding-right: 10rem;
-    width: 90%;
+    /* padding-right: 10rem; */
+    /* width: 90%; */
     min-height: 100vh;
     max-height: 100vh;
+    /* padding-top: 200rem; */
     padding: 0 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    /* align-items: center; */
     background-image: url('./Asset/Elements/Hydro_Logo.png');
     background-size: cover;
     background-repeat: no repeat;
@@ -58,18 +61,36 @@ body::before{
     background-color: rgba(0,0,0,0.5);
 }
 
+.background-desc {
+    position: relative;
+    top: 170rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 460rem;
+    width: 1000rem;
+    background-color: rgb(113, 113, 113, 0.8);
+    border-radius: 35px;
+}
+
 .content{
     position: relative;
-    max-width: 400px;
+    width: 600px;
     display: none;
     visibility: hidden;
     transform: scale(0);
     transition: 0.5s;
-    padding-right: 300rem;
 }
 
 .content.active{
-    display: block;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     visibility: visible;
     transform: scale(1);
     transition: 0.5s;
@@ -78,6 +99,21 @@ body::before{
 .movie-title{
     font-size: 80rem;
     color: #ffffff;
+    padding-top: 8rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#desc-class {
+    text-align: justify;
+    width: 58ch;
+    font-size: 30rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10rem;
+    -webkit-text-stroke-width: 0.4px; 
+    -webkit-text-stroke-color: rgb(124, 124, 124);
+    
 }
 
 .banner .content p {
@@ -108,14 +144,15 @@ object-fit: cover;
 }
 
 .carousel{
-    padding-top: 100rem;
+    padding-top: 0rem;
     justify-content: center;
     position: relative;
-    height: 100vh;
+    height: 12vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 20rem;
+    padding-bottom: 25rem;
 }
 
 .carousel .carousel-item img {
