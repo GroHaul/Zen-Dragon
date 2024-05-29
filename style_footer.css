@@ -13,52 +13,15 @@ footer {
     font-family: "M PLUS 1 Code", monospace;
     font-weight: 500;
     font-style: normal;
-    height: 30rem;
+    height: 150rem;
     text-align: center;
     color: white;
-    padding: 60rem;
+    /* padding: 60rem; */
     position: sticky;
+    width: 100%;
 }
 
 footer p {
-    font-size: 20rem;
-    padding-bottom: 21rem;
-    margin: 0;
-}
-
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    font-family: "M PLUS 1 Code", monospace;
-    font-weight: 500;
-    font-style: normal;
-    height: 15rem;
-    text-align: center;
-    color: white;
-    padding: 60rem;
-    position: sticky;
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    font-family: "M PLUS 1 Code", monospace;
-    font-weight: 500;
-    font-style: normal;
-    height: 15rem;
-    text-align: center;
-    color: white;
-    padding: 60rem;
-    position: sticky;
-}
-
-header p {
     font-size: 20rem;
     padding-bottom: 21rem;
     margin: 0;
