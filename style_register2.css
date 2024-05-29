@@ -9,7 +9,6 @@ html{
 }
 
 body {
-    height: 100vh;
     width: 100%;
     overflow-y: scroll;
     margin: 0;
@@ -309,24 +308,14 @@ button[type="submit"]:hover {
     background: linear-gradient(to top, rgb(193, 124, 5) 85%, #ffd690);
 }
 
-footer {
-    background-color: black;
-    font-family: "M PLUS 1 Code", monospace;
-    font-weight: 500;
-    font-style: normal;
-    height: 20rem;
-    text-align: center;
-    color: white;
-    padding: 60rem;
-    position: sticky;
-}
-
-footer p {
-    font-size: 20rem;
-    margin: 0;
-}
 
 @media (max-width: 706px){
+    
+    /* footer{
+        width: 100%;
+        height: 200rem;
+    } */
+
     .container{
         position: relative;
         height: 700rem;
@@ -357,12 +346,6 @@ footer p {
         align-content: center;
     }
 
-    footer{
-        height: 20rem;
-        padding: 30rem;
-        
-    }
-    
     #zen-logo{
         position: relative;
         height: 100%;

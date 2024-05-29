@@ -19,7 +19,6 @@ footer {
     color: white;
     /* padding: 60rem; */
     position: sticky;
-    width: 100%;
 }
 
 footer p {
@@ -45,11 +44,6 @@ footer p {
 }
 
 @media (max-width: 420px) {
-    footer{
-        height: 80rem;
-        padding: 30rem;
-        
-    }
 
     footer p{
         font-size: 13rem;

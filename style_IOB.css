@@ -298,8 +298,8 @@ body{
     }
     
     #desc3 {
-        font-size: 25rem;
-        width: 80%;
+        font-size: 22rem;
+        width: 105%;
         font-weight: 800;
         text-align: justify;
     }
@@ -333,71 +333,72 @@ body{
     
 }
 
-@media (max-width: 450px){
+@media (max-width: 527px){
+    /* Judul dan Paragaf 1 */
+    .IOB-img-container {
+        position: relative;
+        display: block;
+        height: 300rem;
+        margin-bottom: 10rem;
+        width: 90%;
+        background-color: transparent;
+    }
+    
+    .IOB-img {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border: solid 5px rgb(227, 189, 0);
+        border-radius: 20px;
+        box-shadow: 0 0 30rem rgba(251, 255, 0, 0.6);
+    }
     /* Judul dan Paragaf 1 */
     .container-desc1 {
-        width: 350rem;
-        height: 500rem;
+
+        height: 250rem;
         display: flex;
         flex-direction: column;
     }
     
     .title-container {
         text-align: center;
-        height: 70rem;
     }
     
     #desc-title {
         position: relative;
         color: rgb(245, 245, 220);
         font-weight: 900;
-        font-size: 20rem;
+        font-size: 15rem;
         -webkit-text-stroke: 1px rgb(227, 189, 0);
     }
     
     #desc1 { 
-        position: relative;
-        top: -5rem;
-        font-size: 22rem;
-        font-weight: 800;
-        width: 110ch;
-        text-align: center;
-
-    }
-
-    /* #desc-title {
-        position: relative;
-        color: rgb(245, 245, 220);
-        font-weight: 900;
-        font-size: 30rem;
-        -webkit-text-stroke: 1px rgb(227, 189, 0);
-    } */
-    
-    #desc1 { 
-        font-size: 20rem;
-        width: 30ch;
         text-align: justify;
+        margin-bottom: 50rem; 
+        font-size: 12rem; 
     }
     /* End of Judul and paragraf 1 */
 
     /* Img and Paragraf 2 */
     .container-desc2 {
         position: relative;
-        top: -30rem;
+        top: -10rem;
         display: flex;
         flex-direction: column;
-        gap: 10rem;
+        gap: 45rem;
         justify-content: center;
         align-items: center;
         /* background-color: rebeccapurple; */
     }
     
     .master-container {
+        margin: 0;
         border: solid 5px rgb(227, 189, 0);
         border-radius: 20px;
         box-shadow: 0 0 30rem rgba(251, 255, 0, 0.6);
-        height: 210rem;
-        width: 310rem;
+        height: 200rem;
+        width: 300rem;
     }
     
     #master-img {
@@ -408,11 +409,12 @@ body{
     }
     
     #desc2 {
+        margin-right: 0;
         padding: 0;
         /* padding-left: 50px;
         padding-right: 50px; */
-        font-size: 20rem;
-        width: 30ch;
+        font-size: 12rem;
+        width: 80%;
         font-weight: 800;
         text-align: justify;
     }
@@ -422,31 +424,31 @@ body{
     /* Img and Paragraf 3 */
     .container-desc3 {
         position: relative;
-        top: -30rem;
+        top: -10rem;
         display: flex;
         flex-direction: column-reverse;
-        gap: 10rem;
+        gap: 45rem;
         justify-content: center;
         align-items: center;
+        width: 80%;
         /* background-color: rebeccapurple; */
         padding-bottom: 30rem;
         /* height: 00rem; */
     }
     
     #desc3 {
-        font-size: 20rem;
-        width: 80%;
+        font-size: 12rem;
+        width: 100%;
         font-weight: 800;
         text-align: justify;
-        margin: 0;
     }
     
     .friend-container {
         border: solid 5px rgb(227, 189, 0);
         border-radius: 20px;
         box-shadow: 0 0 30rem rgba(251, 255, 0, 0.6);
-        height: 210rem;
-        width: 310rem;
+        height: 200rem;
+        width: 300rem;
     }
     
     #friend-img {
