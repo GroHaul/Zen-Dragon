@@ -317,8 +317,8 @@ footer {
     height: 20rem;
     text-align: center;
     color: white;
-    /* width: 100%; */
     padding: 60rem;
+    position: sticky;
 }
 
 footer p {
@@ -348,13 +348,10 @@ footer p {
         justify-content: center;
     }
 
-    .logo{
-        position: relative;
-        left: 45rem;
-        height: 70rem;
-        width: 210rem;
-        justify-self: center;
-        align-content: center;
+    footer{
+        height: 20rem;
+        padding: 30rem;
+        
     }
     
     #zen-logo{
@@ -610,5 +607,9 @@ footer p {
     button[type="submit"]:hover {
         transition-duration: 5s;
         background: linear-gradient(to top, rgb(193, 124, 5) 85%, #ffd690);
+    }
+    
+    .footer p{
+        font-size: 13rem;
     }
 }
