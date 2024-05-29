@@ -43,28 +43,6 @@ footer p {
     position: sticky;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    font-family: "M PLUS 1 Code", monospace;
-    font-weight: 500;
-    font-style: normal;
-    height: 15rem;
-    text-align: center;
-    color: white;
-    padding: 60rem;
-    position: sticky;
-}
-
-header p {
-    font-size: 20rem;
-    padding-bottom: 21rem;
-    margin: 0;
-}
-
 @media (max-width: 420px) {
     footer{
         height: 80rem;
