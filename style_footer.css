@@ -14,11 +14,12 @@ footer {
     font-family: "M PLUS 1 Code", monospace;
     font-weight: 500;
     font-style: normal;
-    height: 30rem;
+    height: 150rem;
     text-align: center;
     color: white;
-    padding: 60rem;
+    /* padding: 60rem; */
     position: sticky;
+    width: 100%;
 }
 
 footer p {
