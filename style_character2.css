@@ -180,7 +180,7 @@ body::before{
     border-color: yellow;
 }
 
-@media (max-width: 820px) { 
+@media (max-width: 850px) { 
 
     .banner{
         position: relative;
@@ -201,10 +201,12 @@ body::before{
     }
 
     .content{
+        position: absolute;
+        top: 50rem;
         /* padding-top: 100rem;  */
         align-items: center;
         justify-content: center;
-        position: relative;
+        /* position: relative; */
         max-width: 500px;
         display: none;
         visibility: hidden;
@@ -250,23 +252,6 @@ body::before{
         object-position: center;    
       }
 
-    .carousel{
-        display: flex;
-        /* height: 500px; */
-        /* padding-top: 100rem; */
-        justify-content: center;
-        position: relative;
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
-        height: 20vh;
-        /* flex-direction: column; */
-        align-items: center;
-        gap: 10rem;
-        /* padding-top: 50rem; */
-        /* perspective: 1000; */
-    }
-
     .carousel-box {
         position: relative;
         /* border: #ffd690; */
@@ -279,9 +264,11 @@ body::before{
     }
 
     .carousel{
+        height: 20vh;
+        top: 600rem;
         padding-top: 100rem;
         justify-content: center;
-        position: relative;
+        position:absolute;
         /* display: flex;
         justify-content: center;
         align-items: center; */
@@ -305,7 +292,7 @@ body::before{
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
 
     .banner .content p {
         align-items: center;
@@ -313,11 +300,19 @@ body::before{
         text-align: justify;
         font-size: 15em;
         font-weight: 300;
-        line-height: 30rem;
+        line-height: 25rem;
         color: #ffffff;
         margin: 5px 0 5px;
     }
 
+    .content{
+        position: absolute;
+        top: 20rem;
+    }
+
+    .carousel{
+        top: 350rem;
+    }
     .movie-title{
         text-align: center;
         font-size: 50rem;

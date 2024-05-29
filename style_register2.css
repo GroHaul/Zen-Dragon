@@ -5,118 +5,12 @@ html{
 }
 
 .navbar{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;   
-    align-items: center;
-    height: 100rem;  
-    opacity: 90%;
     position: sticky;
-    width: 100%;
-    top: 0px;
-    z-index: 100;
-    font-family: "M PLUS 1 Code", monospace;
-    font-style: normal;
-}
-
-.btn-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px; 
-}
-
-.img-logo{
-    position:initial;
-    height: 100rem;
-    width: 300rem;
-}
-
-.btn-container a {
-    text-decoration: none;
-    color: white;
-    justify-content: center;
-    display: inline-block;
-    position: relative;
-    transition: color 0.3s, transform 0.3s;
-    overflow: hidden;
-    font-weight: 900;
-    font-size: 30rem;
-    -webkit-text-stroke: 1.4px #ad0403;
-    padding-left: 30rem;
-    padding-right: 30rem;
-    cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    white-space: nowrap;
-}
-
-.btn-register a {
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-    position: relative;
-    transition: color 0.3s, transform 0.3s;
-    overflow: hidden;
-    font-weight: bold;
-    font-size: 30rem;
-    justify-content: right;
-    border: 2px solid white;
-    border-radius: 5px;
-    margin-right: 100rem;
-    margin-left: 30rem;
-    padding: 10px 20px;
-}
-
-.btn-container a::before,
-.btn-container a::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    width: 50%;
-    height: 3px;
-    background-color: #78b9ff;
-    transition: transform 0.3s;
-    transform-origin: center;
-}
-
-.btn-container a::before {
-    left: 25%;
-    transform: scaleX(0);
-}
-
-.btn-container a::after {
-    right: 25%;
-    transform: scaleX(0);
-}
-
-.btn-container a:hover {
-    color:#ffd690;
-    transform: scale(1.1); /* Increase the scale on hover */
-}
-
-.btn-container a:hover::before,
-.btn-container a:hover::after {
-    transform: scaleX(1);
-}
-
-.btn-container a:after {
-    content: "";
-    position: absolute;
-    background-color: #78b9ff;
-    height: 3px;
-    width: 0;
-    bottom: -3px;
-    left: 0;
-    transition: width 0.3s;
-}
-
-.btn-container a:hover:after {
-    width: 100%;
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
+    width: 100%;
     overflow-y: scroll;
     margin: 0;
     font-family: "M PLUS 1 Code", monospace;
@@ -415,53 +309,28 @@ button[type="submit"]:hover {
     background: linear-gradient(to top, rgb(193, 124, 5) 85%, #ffd690);
 }
 
-@media (max-width: 1320px){
-    .img-logo {
-        width: 200rem;
-        height: auto;
-        margin-left: 30rem;
-    }
-    
-    .btn-container a{
-        font-size: 25rem;
-    }
-
-
-    .btn-register a{
-        margin-right: 50rem;
-        font-size: 25rem;
-    }
+footer {
+    background-color: black;
+    font-family: "M PLUS 1 Code", monospace;
+    font-weight: 500;
+    font-style: normal;
+    height: 20rem;
+    text-align: center;
+    color: white;
+    padding: 60rem;
+    position: sticky;
 }
 
-@media (max-width: 820px){
-    
+footer p {
+    font-size: 20rem;
+    margin: 0;
 }
 
-@media (max-width: 420px){
-    .navbar{
-        background-color: transparent;
-        display: flex;
-        justify-content: space-between;   
-        align-items: center;
-        padding: 1rem;
-        height: 100rem;  
-        opacity: 90%;
-        position: sticky;
-        width: 100%;
-        top: 0;
-        z-index: 100;
-    }
-
-    .img-logo {
-        width: 300rem;
-        height: auto;
-        margin-left: 1rem;
-    }
-
+@media (max-width: 706px){
     .container{
         position: relative;
-        height: 853rem;
-        width: 350.0rem;   
+        height: 700rem;
+        width: 300rem;   
         margin: 50rem auto;
         background-color: rgb(13, 17, 46, 0.95);
         padding-top: 10rem;
@@ -477,5 +346,15 @@ button[type="submit"]:hover {
         color: rgb(64, 164, 252);
         align-items: center;
         justify-content: center;
+    }
+
+    footer{
+        height: 20rem;
+        padding: 30rem;
+        
+    }
+
+    footer p{
+        font-size: 13rem;
     }
 }
