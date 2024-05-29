@@ -51,10 +51,9 @@
 
 .btn-container .active{
     color:#ffd690;
-    transform: scale(1.1); /* Increase the scale on hover */
+    transform: scale(1.1);
     
 }
-
 
 .btn-register a {
     text-decoration: none;
@@ -105,7 +104,7 @@
 
 .btn-container a:hover {
     color:#ffd690;
-    transform: scale(1.1); /* Increase the scale on hover */
+    transform: scale(1.1);
 }
 
 
@@ -180,8 +179,6 @@
     padding-top: 10rem;
 }
 
-
-
 /* End of Navbar Style */
 @media (max-width: 1322px){
     .navbar{
@@ -237,7 +234,7 @@
     
     .btn-container .active{
         color:#ffd690;
-        transform: scale(1.1); /* Increase the scale on hover */
+        transform: scale(1.1);
         
     }
     
@@ -282,7 +279,7 @@
     
     .btn-container a:hover {
         color:#ffd690;
-        transform: scale(1.1); /* Increase the scale on hover */
+        transform: scale(1.1);
     }
     
     .btn-container a:hover::before,

@@ -1,6 +1,4 @@
 #zen-logo-footer {
-    /* height: 100rem; */
-    /* padding-bottom: 4rem; */
     height: 80rem;
 }
 
@@ -17,7 +15,6 @@ footer {
     height: 150rem;
     text-align: center;
     color: white;
-    /* padding: 60rem; */
     position: sticky;
 }
 
