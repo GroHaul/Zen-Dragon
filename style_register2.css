@@ -348,6 +348,15 @@ footer p {
         justify-content: center;
     }
 
+    .logo{
+        position: relative;
+        left: 45rem;
+        height: 70rem;
+        width: 210rem;
+        justify-self: center;
+        align-content: center;
+    }
+
     footer{
         height: 20rem;
         padding: 30rem;
@@ -608,7 +617,7 @@ footer p {
         transition-duration: 5s;
         background: linear-gradient(to top, rgb(193, 124, 5) 85%, #ffd690);
     }
-    
+
     .footer p{
         font-size: 13rem;
     }

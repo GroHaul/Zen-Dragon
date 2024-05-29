@@ -13,7 +13,7 @@ footer {
     font-family: "M PLUS 1 Code", monospace;
     font-weight: 500;
     font-style: normal;
-    height: 15rem;
+    height: 30rem;
     text-align: center;
     color: white;
     padding: 60rem;
@@ -66,7 +66,7 @@ header p {
 
 @media (max-width: 420px) {
     footer{
-        height: 20rem;
+        height: 80rem;
         padding: 30rem;
         
     }
