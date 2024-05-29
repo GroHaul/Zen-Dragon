@@ -239,7 +239,7 @@ body::before{
 
     .background-desc {
         position: relative;
-        top: 170rem;
+        top: 120rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -270,5 +270,12 @@ body::before{
     .carousel .carousel-item {
         width: 55rem;
         height: 55rem;
+    }
+}
+
+@media(max-width: 390px){
+    .carousel .carousel-item {
+        width: 40rem;
+        height: 40rem;
     }
 }
