@@ -439,7 +439,7 @@ footer p {
         position: relative;
         font-size: 18rem;
         top: -12rem;
-        left: 72rem;
+        left: 75rem;
     }
     
     #second-name{
@@ -580,7 +580,7 @@ footer p {
     #label-A-TAC{
         position: relative;
         top: 62rem;
-        left: 2rem;
+        left: -4rem;
         color: white;
         font-size: 14.5rem;
         font-weight: 900;

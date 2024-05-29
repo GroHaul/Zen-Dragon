@@ -26,7 +26,7 @@ body{
 
 
 .container {
-    /* position: relative; */
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,14 +36,16 @@ body{
 }
 
 .IOB-img-container {
-    /* position: relative; */
+    position: relative;
+    display: block;
     height: 580rem;
+    margin-bottom: 100rem;
     width: 90%;
     background-color: transparent;
 }
 
 .IOB-img {
-    /* position: relative; */
+    position: relative;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -66,18 +68,22 @@ body{
 }
 
 .title-container {
+    position: relative;
     display: flex;
+    width: 80%;
     justify-content: center;
     align-items: center;
     background-color: #8B4513;
-    height: 36rem;
-    padding: 11px;
+    height: fit-content;
     border-radius: 10px;
     border: solid 2px #D2B48C;
 }
 
 #desc-title {
     position: relative;
+    text-align: center;
+    display:flex;
+    width: 90%;
     color: rgb(245, 245, 220);
     font-weight: 900;
     font-size: 30rem;
@@ -86,12 +92,15 @@ body{
 
 #desc1 { 
     position: relative;
-    top: -5rem;
+    /* padding-top: 200rem;
+    padding-bottom: 200rem; */
+    /* top: 30rem; */
     font-size: 22rem;
     font-weight: 800;
-    width: 110ch;
+    width: 80%;
     text-align: center;
     color:white;
+    margin-bottom: 100rem;
     /* color: rgb(245, 245, 220); */
     /* -webkit-text-stroke: 1px #83634c; */
     /* text-shadow: 0px 0px 10px white; */
@@ -110,6 +119,8 @@ body{
 }
 
 .master-container {
+    margin-left: 100px;
+    margin-right: 100px;
     border: solid 5px rgb(227, 189, 0);
     border-radius: 20px;
     box-shadow: 0 0 30rem rgba(251, 255, 0, 0.6);
@@ -125,8 +136,9 @@ body{
 }
 
 #desc2 {
-    font-size: 25rem;
-    width: 70ch;
+    font-size: 22rem;
+    width: 60%;
+    margin-right:100px;
     font-weight: 800;
     text-align: right;
     color: white;
@@ -135,6 +147,8 @@ body{
 }
 
 .container-desc3 {
+    margin-left: 100px;
+    margin-right: 100px;
     font-family: "M PLUS 1 Code", monospace;
     font-style: normal;
     position: relative;
@@ -149,8 +163,8 @@ body{
 }
 
 #desc3 {
-    font-size: 25rem;
-    width: 70ch;
+    font-size: 22rem;
+    width: 60%;
     font-weight: 800;
     text-align: left;
     color: white;
@@ -173,7 +187,7 @@ body{
 
 #block-line {
     position: relative;
-    top: -15rem;
+    top: 0rem;
     border: none;
     border-top: 1px solid #f6ff00;
     margin: 5px 0;
@@ -184,9 +198,28 @@ body{
 }
 
 @media (max-width: 850px){
+
+    .IOB-img-container {
+        position: relative;
+        display: block;
+        height: 580rem;
+        margin-bottom: 200rem;
+        width: 90%;
+        background-color: transparent;
+    }
+    
+    .IOB-img {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border: solid 5px rgb(227, 189, 0);
+        border-radius: 20px;
+        box-shadow: 0 0 30rem rgba(251, 255, 0, 0.6);
+    }
     /* Judul dan Paragaf 1 */
     .container-desc1 {
-        width: 700rem;
+
         height: 300rem;
         display: flex;
         flex-direction: column;
@@ -194,20 +227,19 @@ body{
     
     .title-container {
         text-align: center;
-        height: 70rem;
     }
     
-    /* #desc-title {
+    #desc-title {
         position: relative;
         color: rgb(245, 245, 220);
         font-weight: 900;
-        font-size: 30rem;
+        font-size: 25rem;
         -webkit-text-stroke: 1px rgb(227, 189, 0);
-    } */
+    }
     
     #desc1 { 
-        width: 60ch;
         text-align: justify;
+        margin-bottom: 200rem;
     }
     /* End of Judul and paragraf 1 */
 
@@ -239,11 +271,12 @@ body{
     }
     
     #desc2 {
+        margin-right: 0;
         padding: 0;
         /* padding-left: 50px;
         padding-right: 50px; */
-        font-size: 25rem;
-        width: 50ch;
+        font-size: 22rem;
+        width: 80%;
         font-weight: 800;
         text-align: justify;
     }
@@ -266,7 +299,7 @@ body{
     
     #desc3 {
         font-size: 25rem;
-        width: 50ch;
+        width: 80%;
         font-weight: 800;
         text-align: justify;
     }
@@ -402,9 +435,10 @@ body{
     
     #desc3 {
         font-size: 20rem;
-        width: 30ch;
+        width: 80%;
         font-weight: 800;
         text-align: justify;
+        margin: 0;
     }
     
     .friend-container {
