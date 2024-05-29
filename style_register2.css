@@ -415,23 +415,6 @@ button[type="submit"]:hover {
     background: linear-gradient(to top, rgb(193, 124, 5) 85%, #ffd690);
 }
 
-footer {
-    background-color: black;
-    font-family: "M PLUS 1 Code", monospace;
-    font-weight: 500;
-    font-style: normal;
-    height: 20rem;
-    text-align: center;
-    color: white;
-    padding: 60rem;
-    position: sticky;
-}
-
-footer p {
-    font-size: 20rem;
-    margin: 0;
-}
-
 @media (max-width: 1320px){
     .img-logo {
         width: 200rem;
@@ -494,15 +477,5 @@ footer p {
         color: rgb(64, 164, 252);
         align-items: center;
         justify-content: center;
-    }
-
-    footer{
-        height: 20rem;
-        padding: 30rem;
-        
-    }
-
-    footer p{
-        font-size: 13rem;
     }
 }
