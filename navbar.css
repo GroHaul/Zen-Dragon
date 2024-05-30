@@ -358,6 +358,10 @@
 
 @media (max-width: 853px) { 
 
+
+    .navbar .toggle-button{
+        font-size: 30rem;
+    }
     /* Navbar */
     .btn-container,
     .btn-register{
