@@ -10,7 +10,6 @@ html{
 body{
     margin: 0;
     padding: 0;
-    /* padding-bottom: 10rem; */
     background-color: rgb(36, 36, 36);
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,9 +29,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* top: 180rem; */
     width: 100%;
-    /* height: 480rem; */
 }
 
 .IOB-img-container {
@@ -92,18 +89,12 @@ body{
 
 #desc1 { 
     position: relative;
-    /* padding-top: 200rem;
-    padding-bottom: 200rem; */
-    /* top: 30rem; */
     font-size: 22rem;
     font-weight: 800;
     width: 80%;
     text-align: center;
     color:white;
     margin-bottom: 100rem;
-    /* color: rgb(245, 245, 220); */
-    /* -webkit-text-stroke: 1px #83634c; */
-    /* text-shadow: 0px 0px 10px white; */
 }
 
 .container-desc2 {
@@ -115,7 +106,6 @@ body{
     gap: 45rem;
     justify-content: center;
     align-items: center;
-    /* background-color: rebeccapurple; */
 }
 
 .master-container {
@@ -142,8 +132,6 @@ body{
     font-weight: 800;
     text-align: right;
     color: white;
-    /* -webkit-text-stroke: 1px #83634c;
-    text-shadow: 0px 0px 10px white; */
 }
 
 .container-desc3 {
@@ -157,9 +145,7 @@ body{
     gap: 45rem;
     justify-content: center;
     align-items: center;
-    /* background-color: rebeccapurple; */
     padding-bottom: 30rem;
-    /* height: 00rem; */
 }
 
 #desc3 {
@@ -252,7 +238,6 @@ body{
         gap: 45rem;
         justify-content: center;
         align-items: center;
-        /* background-color: rebeccapurple; */
     }
     
     .master-container {
@@ -273,8 +258,6 @@ body{
     #desc2 {
         margin-right: 0;
         padding: 0;
-        /* padding-left: 50px;
-        padding-right: 50px; */
         font-size: 22rem;
         width: 80%;
         font-weight: 800;
@@ -292,9 +275,7 @@ body{
         gap: 45rem;
         justify-content: center;
         align-items: center;
-        /* background-color: rebeccapurple; */
         padding-bottom: 30rem;
-        /* height: 00rem; */
     }
     
     #desc3 {
@@ -389,7 +370,6 @@ body{
         gap: 45rem;
         justify-content: center;
         align-items: center;
-        /* background-color: rebeccapurple; */
     }
     
     .master-container {
@@ -411,8 +391,6 @@ body{
     #desc2 {
         margin-right: 0;
         padding: 0;
-        /* padding-left: 50px;
-        padding-right: 50px; */
         font-size: 12rem;
         width: 80%;
         font-weight: 800;
@@ -431,9 +409,7 @@ body{
         justify-content: center;
         align-items: center;
         width: 80%;
-        /* background-color: rebeccapurple; */
         padding-bottom: 30rem;
-        /* height: 00rem; */
     }
     
     #desc3 {
@@ -469,5 +445,4 @@ body{
         box-shadow: 0 0 10px rgb(255, 255, 255);
         stroke: solid 1px white;
     }
-    
 }
